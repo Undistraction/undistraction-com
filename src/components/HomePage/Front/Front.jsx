@@ -57,7 +57,7 @@ const Front = () => (
         <TextLink to="mailTo:info@undistraction.com">
           info@undistraction.com
         </TextLink>
-        <TextLink to="tel:+44(0)7880600363">+44(0)7880 600 363</TextLink>
+        <TextLink to="tel:+44(0)7880600363">+44 (0)7880 600 363</TextLink>
       </VLayout>
     </Contact>
   </Layout>
