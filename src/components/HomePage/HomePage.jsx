@@ -20,6 +20,12 @@ const TextContent = styled.div`
   })};
 `
 
+const Rest = styled.div`
+  ${api({
+    margin: scope`1ru`,
+  })};
+`
+
 const Layout = styled.div`
   ${api({})};
 `
@@ -29,11 +35,11 @@ const HomePage = ({ data }) => (
     <Layout>
       <Metadata {...homePageMetadata(data)} />
       <Front />
-      <div>
+      <Rest>
         <TextContent>
           <MarkdownContent htmlAst={markdownItemHTMLAst(data)} />
         </TextContent>
-      </div>
+      </Rest>
     </Layout>
   </Page>
 )

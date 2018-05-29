@@ -39,7 +39,7 @@
       "yarn demo:deleteCache && yarn demo:copy && cd demo/project && yarn dev",
     "demo:serve": "cd ./demo/project && gatsby serve",
     "surge:deploy": "surge public/ undistraction.com",
-    "now:deploy": "now && now alias && now remove my-package-name --safe"
+    "now:deploy": "now public && now alias && now remove my-package-name --safe"
   },
   "dependencies": {
     "cssapi": "0.8.8",

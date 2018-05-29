@@ -21,7 +21,7 @@ const Contact = styled.header`
 
 const Layout = styled.section`
   ${flexVertical};
-  ${spaceChildrenV(`2ru`)};
+  ${spaceChildrenV(scope`1ru`)};
   align-items: center;
   justify-content: center;
   ${api({
@@ -33,7 +33,7 @@ const Layout = styled.section`
   > *:first-child {
     ${api({
       maxWidth: `20ru`,
-      width: [`50%`, `30%`, `35%`],
+      width: scope`7ru`,
     })};
   }
 
