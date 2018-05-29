@@ -26,9 +26,6 @@ const SiteNav = ({ pages }) => (
   <Wrapper>
     <Layout>
       <SiteNavLink page={pages.home} />
-      <SiteNavLink page={pages.articles} />
-      <SiteNavLink page={pages.projects} />
-      <SiteNavLink page={pages.about} />
     </Layout>
   </Wrapper>
 )

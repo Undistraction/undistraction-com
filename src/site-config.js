@@ -9,14 +9,14 @@ module.exports = {
 
   data: {
     // Used in the site copyright
-    owner: `Your Name Here`,
+    owner: `Pedr Browne`,
     // Used for the main site title and in RSS Feed
-    title: `Gatsby Skeleton`,
+    title: `Undistraction`,
     // Used in RSS Feed
-    description: `Your site description for RSS feed`,
-    url: `https://example.com`,
+    description: `The personal site of frontend developer Pedr Browne`,
+    url: `https://undistraction.com`,
     // Starting year of copyright range
-    startYear: `2017`,
+    startYear: `2018`,
     // Show the credit in the footer (much appreciated)
     showCredit: true,
     // Formatting for dates displayed across the site
@@ -30,8 +30,8 @@ module.exports = {
 
   metadata: {
     home: {
-      title: `Site / Home Page`,
-      description: `The home page of the site`,
+      title: `Undistraction / Home Page`,
+      description: `The personal site of frontend developer Pedr Browne`,
       keywords: `home`,
     },
     about: {
@@ -40,14 +40,14 @@ module.exports = {
       keywords: `about`,
     },
     articles: {
-      title: `Site / Articles Page`,
-      description: `The Articles`,
-      keywords: `articles`,
+      title: `Undistraction / Writings`,
+      description: `Writings`,
+      keywords: `writing, articles, thoughts, front end developer, javascript, programming`,
     },
     projects: {
-      title: `Site / Projects Page`,
-      description: `The Projects`,
-      keywords: `projects`,
+      title: `Undistraction / Open Source Projects`,
+      description: `The open source projects I have created or contribute to`,
+      keywords: `os, open source`,
     },
     tag: {
       title: `Tag: `,
@@ -68,11 +68,11 @@ module.exports = {
   seo: {
     // Your Google Tracking ID, in the form: UA-000000-0
     // If you leave undefined, the tracking code will not be added
-    googleTrackingID: undefined,
+    googleTrackingID: `UA-38992425-4`,
   },
 
   // ---------------------------------------------------------------------------
-  // Site Structure
+  // Undistraction Structure
   // ---------------------------------------------------------------------------
 
   structure: {
@@ -92,7 +92,7 @@ module.exports = {
     pages: {
       home: {
         // Page title
-        title: `Welcome To The Home Page`,
+        title: `Undistraction`,
         // Title used for nav
         navTitle: `Home`,
         // Path used in URL

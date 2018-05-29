@@ -49,6 +49,4 @@ TextLink.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-TextLink.displayName = `TextLink`
-
 export default TextLink

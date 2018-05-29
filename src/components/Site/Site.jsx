@@ -29,11 +29,14 @@ const Layout = styled.div`
   ${blockCenterH};
   ${api({
     minHeight: `100vh`,
-    maxWidth: 1100,
     minWidth: 300,
   })};
 
-  ${Header}, ${Footer} {
+  ${Header} {
+    display: none;
+  }
+
+  ${Footer} {
     flex: 0 0 auto;
   }
 

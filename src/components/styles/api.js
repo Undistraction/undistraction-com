@@ -75,8 +75,8 @@ const config = {
       borderColor: `c:backgroundStart`,
     },
     font: {
-      title: `Berkshire Swash, cursive`,
-      default: `Source Code Pro, monospace`,
+      title: `DIN Next W01 Rounded, sans-serif`,
+      default: `DIN Next W01, sans-serif`,
     },
     gradient: {
       background: `linear-gradient(to bottom, c:backgroundStart, c:backgroundStop 15ru)`,
@@ -103,7 +103,7 @@ const config = {
             '1': 22,
             '2': 28,
             '3': 33,
-            '4': 38,
+            '4': 60,
             smallprint: `s:-1`,
             body: `s:0`,
             lede: `s:1`,

@@ -6,26 +6,18 @@ keywords: keyword 6, keyword 7
 image: "./images/main.jpg"
 ---
 
-This is the home page. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Ut sodales urna et mauris pretium rhoncus. Curabitur quis erat ac velit euismod
-bibendum at vitae dolor. Proin quis eros lacus. Ut porta dui sit amet nulla
-ultrices laoreet. Maecenas euismod sodales rhoncus. Praesent sit amet
-ullamcorper libero, eu rhoncus leo. Cras non euismod nunc. Vestibulum volutpat
-risus vel gravida viverra. Nullam a felis eu lectus convallis egestas. Nullam in
-vestibulum nisl. Praesent id augue risus. Maecenas in fermentum quam, a egestas
-tortor.
+I'm Pedr, a Frontend Developer based in Newcastle Upon Tyne in the North of England. I love concise, readable and well tested code and minimal design where content is king.
 
-Quisque porta, tortor sit amet scelerisque consequat, felis enim scelerisque
-metus, finibus ultrices dolor ex eget erat. Aliquam venenatis posuere felis eget
-porta. Curabitur porta, justo vel maximus venenatis, enim lorem commodo est, sit
-amet pharetra metus nisi id sapien. Curabitur sit amet urna et urna imperdiet
-dictum sit amet eu mi. Sed cursus accumsan pellentesque. Ut fringilla semper
-eros nec commodo. Proin volutpat ex sit amet luctus sodales. Quisque vel nisl ac
-dolor mollis aliquet. Nam augue purus, blandit ut lorem non, aliquet elementum
-odio.
+I've been working as a developer for over ten years and I'm well versed in JavaScript, CSS and a good chunk of Rails. I've also developed some non-trivial iOS apps (though not for a while) and I'm currently dabbling with a little Haskell. Over the years I've worked for a huge variety of customers from high-street fashion brands, high-end design agencies and startups to social enterprise, NGOs and theatre companies on websites and both web and mobile apps.
 
-Ut bibendum arcu quis nunc mattis mattis. Vestibulum hendrerit diam vel diam
-fringilla ornare. Duis dignissim porttitor turpis a efficitur. Sed auctor
-pulvinar quam, sed tincidunt arcu. Maecenas varius tristique ipsum, quis
-molestie magna posuere a. Curabitur enim augue, tristique vel ullamcorper ut,
-iaculis a felis. Nulla in elit non odio tincidunt semper non sit amet justo.
+I'm a big fan of CSS-in-JS and functional programming and I am one of the core contributors to [Ramda Adjunct](https://github.com/char0n/ramda-adjunct), the most popular extension library for Ramda, the gold standard in JavaScript FP libraries, and I've contributed to a number of other open-source projects including [Gatsby](https://www.gatsbyjs.org/).
+
+I have recently taken some time out to improve my skills through working on a number of my own open-source projects.
+
+If you'd like to see the code I write you can take a look at my [Github Account](https://github.com/Undistraction) and to see what I've been stuggling with recently have a look at my [Stack Overflow Profile](https://stackoverflow.com/users/138601/undistraction) (I'm in the top 2% of contributors and my questions and answers have reached around 1.6 million people).
+
+Last year I co-edited the official Webpack book [SurviveJS:Webpack](https://survivejs.com/webpack/foreword/) written by Juho Vepsäläinen, one of the core Webpack team.
+
+Alongside writing code I sometimes do print work, photography and the occasional music video which you can see at my other site [unwalked.com](http://unwalked.com).
+
+

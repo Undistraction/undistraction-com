@@ -117,12 +117,12 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     resources.projects.path
   )
 
-  return Promise.all([
-    paginatedArticlePages,
-    articlePages,
-    tagPages,
-    categoryPages,
-    projectsPage,
-    projectPages,
-  ])
+  // return Promise.all([
+  //   paginatedArticlePages,
+  //   articlePages,
+  //   tagPages,
+  //   categoryPages,
+  //   projectsPage,
+  //   projectPages,
+  // ])
 }

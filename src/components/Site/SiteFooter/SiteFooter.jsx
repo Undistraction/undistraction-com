@@ -23,17 +23,16 @@ const Layout = styled(VLayout.withComponent(`footer`))`
   }
 `
 
-const SiteFooter = ({ owner, startYear, showCredit }) => (
+const SiteFooter = ({ owner, startYear }) => (
   <Layout>
     <Copyright owner={owner} dateRange={dateRange(startYear)} />
-    {showCredit && <Credit />}
+    <Credit />
   </Layout>
 )
 
 SiteFooter.propTypes = {
   owner: PropTypes.string.isRequired,
   startYear: PropTypes.string.isRequired,
-  showCredit: PropTypes.bool.isRequired,
 }
 
 export default SiteFooter

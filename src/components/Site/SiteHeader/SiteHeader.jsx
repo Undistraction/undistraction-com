@@ -3,9 +3,6 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
 import VLayout from '../../shared/layouts/VLayout'
-import SiteLogoLink from './SiteLogoLink'
-import SiteNav from './SiteNav'
-import SiteTitle from './SiteTitle'
 
 const Header = styled.div``
 
@@ -23,15 +20,7 @@ const Layout = styled(VLayout)`
   }
 `
 
-const SiteHeader = ({ title, pages }) => (
-  <Layout spacing="small">
-    <Header>
-      <SiteLogoLink />
-    </Header>
-    <SiteTitle>{title}</SiteTitle>
-    <SiteNav pages={pages} />
-  </Layout>
-)
+const SiteHeader = ({ title, pages }) => <Layout spacing="small" />
 
 SiteHeader.propTypes = {
   title: PropTypes.string.isRequired,

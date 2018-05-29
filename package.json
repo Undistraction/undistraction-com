@@ -1,9 +1,14 @@
 {
-  "name": "gatsby-skeleton-starter",
-  "description": "Gatsby Skeleton Starter",
+  "name": "undistraction-com",
+  "description": "Undistraction Site",
   "version": "0.0.1",
   "author": "Pedr Browne <info@undistraction.com>",
-  "keywords": ["gatsby", "styled-components", "cssapi"],
+  "keywords": [
+    "undistraction",
+    "frontend developer",
+    "javascript",
+    "personal iste"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -33,7 +38,8 @@
     "demo:dev":
       "yarn demo:deleteCache && yarn demo:copy && cd demo/project && yarn dev",
     "demo:serve": "cd ./demo/project && gatsby serve",
-    "surge:deploy": "surge --domain gatsby-skeleton-starter.surge.sh public/"
+    "surge:deploy": "surge public/ undistraction.com",
+    "now:deploy": "now && now alias && now remove my-package-name --safe"
   },
   "dependencies": {
     "cssapi": "0.8.8",

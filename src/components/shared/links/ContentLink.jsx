@@ -16,12 +16,6 @@ const ContentLink = styled(TextLink)`
       background: `c:backgroundStart`,
     })};
   }
-
-  html.feat-no-touchevents &:hover::before {
-    left: 50%;
-    right: 50%;
-    transition: all 0.5s ease-in-out;
-  }
 `
 
 export default ContentLink

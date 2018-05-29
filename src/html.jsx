@@ -38,10 +38,9 @@ const html = ({
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-
-        <link
-          href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400i,700,700i|Berkshire+Swash"
-          rel="stylesheet"
+        <script
+          type="text/javascript"
+          src="//fast.fonts.net/jsapi/916b72d7-b5ee-4d1c-b36f-4a0c548a5331.js"
         />
         <link rel="icon" href="favicons/favicon.ico?v=2" />
         {headComponents}
