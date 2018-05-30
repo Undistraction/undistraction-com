@@ -37,7 +37,7 @@
     "surge:deploy": "surge public/ undistraction.com",
     "now:copyConfig": "cp -f now.json public/now.json",
     "now:deploy":
-      "yarn now:copyConfig && cd public/ && now -e REDIRECT_URL=https://undistraction.com && now alias && now rm undistraction-com --safe --yes"
+      "yarn build && yarn now:copyConfig && cd public/ && now -e REDIRECT_URL=https://undistraction.com && now alias && now rm undistraction-com --safe --yes"
   },
   "dependencies": {
     "cssapi": "0.8.8",
