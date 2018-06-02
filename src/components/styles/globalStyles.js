@@ -50,6 +50,7 @@ const globalStyles = api => () =>
 
     body {
       word-spacing: -0.05em;
+      font-variant-numeric: oldstyle-nums;
       ${api({
         fontFamily: `f:default`,
         baseline: scope`s:body`,
