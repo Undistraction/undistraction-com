@@ -50,7 +50,7 @@ const globalStyles = api => () =>
 
     body {
       word-spacing: -0.05em;
-      font-variant-numeric: oldstyle-nums;
+      font-varient: common-ligatures;
       ${api({
         fontFamily: `f:default`,
         baseline: scope`s:body`,
@@ -76,6 +76,7 @@ const globalStyles = api => () =>
       margin: 0;
       padding: 0;
       max-width: 60em;
+      font-variant-numeric: oldstyle-nums;
     }
 
     * + p {

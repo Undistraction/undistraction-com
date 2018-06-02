@@ -38,9 +38,10 @@ const html = ({
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <script
-          type="text/javascript"
-          src="//fast.fonts.net/jsapi/916b72d7-b5ee-4d1c-b36f-4a0c548a5331.js"
+        <link
+          type="text/css"
+          rel="stylesheet"
+          href="//fast.fonts.net/cssapi/916b72d7-b5ee-4d1c-b36f-4a0c548a5331.css"
         />
         <link rel="icon" href="favicons/favicon.ico?v=2" />
         {headComponents}

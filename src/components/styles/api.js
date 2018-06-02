@@ -75,8 +75,8 @@ const config = {
       borderColor: `c:backgroundStart`,
     },
     font: {
-      title: `DIN Next W01 Rounded, sans-serif`,
-      default: `DIN Next W01, sans-serif`,
+      title: `'DIN Next W01 Rounded', sans-serif`,
+      default: `'DIN Next™ W04', sans-serif`,
     },
     gradient: {
       background: `linear-gradient(to bottom, c:backgroundStart, c:backgroundStop 15ru)`,
