@@ -16,7 +16,7 @@ const TextContent = styled.div`
   margin: 0 auto;
   ${api({
     maxWidth: 900,
-    paddingV: scope`2ru`,
+    paddingV: { default: `0.5ru`, largeUp: `1ru` },
   })};
 `
 

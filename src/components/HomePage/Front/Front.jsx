@@ -32,8 +32,7 @@ const Layout = styled.section`
 
   > *:first-child {
     ${api({
-      maxWidth: `20ru`,
-      width: scope`7ru`,
+      width: scope`5ru`,
     })};
   }
 
