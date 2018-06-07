@@ -1,7 +1,7 @@
+import { mixin } from 'cssapi'
 import { map } from 'ramda'
 import { ensureArray } from 'ramda-adjunct'
 import { css } from 'styled-components'
-import { mixin } from 'cssapi'
 
 const defaultBorder = api => (edges = [`top`]) => css`
   border-image-slice: 30;

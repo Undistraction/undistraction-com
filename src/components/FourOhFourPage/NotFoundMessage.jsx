@@ -2,10 +2,10 @@ import { api, scope } from 'cssapi'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
-import Logo from '../shared/Logo'
 import HLayout from '../shared/layouts/HLayout'
 import VLayout from '../shared/layouts/VLayout'
 import TextLink from '../shared/links/TextLink'
+import Logo from '../shared/Logo'
 import spinOnYAxis from '../styles/animations/spinOnYAxis'
 
 const Four = styled.div``
@@ -14,8 +14,12 @@ const Layout = styled(VLayout)`
   text-align: center;
   ${LogoWrapper} {
     ${api({
-      width: `200`,
+      width: scope`5ru`,
     })};
+  }
+
+  p {
+    margin: 0 auto;
   }
 `
 
@@ -26,12 +30,13 @@ const Header = styled(HLayout.withComponent(`header`))`
     fontSize: scope`s:giant`,
     fontFamily: `f:title`,
     marginH: `auto`,
+    paddingTop: scope`2ru`,
   })};
 `
 
 const Body = styled.div``
 
-const NotFoundMessage = ({ path }) => (
+const NotFoundMessage = () => (
   <Layout spacing="large">
     <Header spacing="smallInverse">
       <Four>4</Four>

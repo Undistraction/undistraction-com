@@ -6,9 +6,9 @@ keywords: keyword 6, keyword 7
 image: "./images/main.jpg"
 ---
 
-I'm Pedr, a Frontend Developer based in Newcastle Upon Tyne in the North of England. I love concise, readable and well tested code and minimal design where content is king.
+I'm Pedr, a Front End Developer and Designer based in Newcastle Upon Tyne in the North of England. I love concise, readable and well tested code and minimal design where content is king.
 
-I've been working as a developer for over ten years and I'm well versed in JavaScript, CSS and a good chunk of Rails. I've also developed some non-trivial iOS apps (though not for a while) and I'm currently dabbling with a little Haskell. Over the years I've worked for a huge variety of customers from high-street fashion brands, high-end design agencies and startups to social enterprise, NGOs and theatre companies on websites and both web and mobile apps.
+I've been working as a designer and developer for over ten years and I'm well versed in JavaScript, CSS and a good chunk of Rails. I've also developed some non-trivial iOS apps (though not for a while) and I'm currently dabbling with a little Haskell. Over the years I've worked for a huge variety of customers from high-street fashion brands, high-end design agencies and startups to social enterprise, NGOs and theatre companies on websites and both web and mobile apps.
 
 I'm a big fan of CSS-in-JS and functional programming and I am one of the core contributors to [Ramda Adjunct](https://github.com/char0n/ramda-adjunct), the most popular extension library for Ramda, the gold standard in JavaScript FP libraries, and I've contributed to a number of other open-source projects including [Gatsby](https://www.gatsbyjs.org/).
 
