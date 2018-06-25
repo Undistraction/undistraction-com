@@ -6,9 +6,9 @@ keywords: keyword 6, keyword 7
 image: "./images/main.jpg"
 ---
 
-I'm Pedr, a Front End Developer and Designer based in Newcastle Upon Tyne in the
-North of England. I love concise, readable and well tested code and minimal
-design where content is king.
+I'm Pedr, an experienced Front End Developer and Designer based in Newcastle
+Upon Tyne in the North of England. I love concise, readable and well tested code
+and minimal design where content is king.
 
 I've been working as a designer and developer for over ten years and I'm well
 versed in JavaScript, CSS and a good chunk of Rails. I've also developed some
