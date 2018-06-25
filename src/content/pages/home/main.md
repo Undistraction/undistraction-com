@@ -25,7 +25,7 @@ libraries, and I've contributed to a number of other open-source projects
 including [Gatsby](https://www.gatsbyjs.org/).
 
 I have recently taken some time out to improve my skills through working on a
-number of my own open-source projects.
+number of my own open-source projects including:
 
 * [cssapi](https://github.com/Undistraction/cssapi) provides sites and apps
   using CSS-in-JS with a simple mechanism for defining, managing and accessing
