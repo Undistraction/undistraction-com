@@ -13,7 +13,6 @@ const OrderedList = styled(UnorderedList)`
     ${api({
       color: `c:textInverted`,
       width: scope`1ru`,
-      left: scope`-1ru`,
       top: 0,
     })};
   }

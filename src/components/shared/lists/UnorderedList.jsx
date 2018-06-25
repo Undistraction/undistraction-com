@@ -1,7 +1,6 @@
 import { api, scope } from 'cssapi'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import elementBorder from '../../styles/mixins/elementBorder'
 import spaceChildrenV from '../../styles/mixins/spaceChildrenV'
 
 const scaleMap = {
@@ -15,25 +14,13 @@ const UnorderedList = styled.ul`
   ${p =>
     api({
       baseline: scope`s:${scaleMap[p.size]} 1`,
-      paddingLeft: scope`1ru`,
+      paddingLeft: 0,
     })(p)};
 
   li {
     position: relative;
     list-style: none;
-    ${api({
-      paddingLeft: scope`0.5ru`,
-    })};
-
-    &::before {
-      content: '';
-      position: absolute;
-      ${api({
-        left: scope`-1ru`,
-        height: scope`1ru`,
-      })};
-      ${elementBorder()};
-    }
+    padding-left: 0;
   }
 `
 

@@ -11,10 +11,10 @@ import Cite from './Cite'
 import FootnoteRef from './Footnotes/FootnoteRef'
 import Footnotes from './Footnotes/Footnotes'
 import HorizontalRule from './HorizontalRule'
-import Table from './Table'
 import ContentLink from './links/ContentLink'
 import OrderedList from './lists/OrderedList'
 import UnorderedList from './lists/UnorderedList'
+import Table from './Table'
 import ContentTitlePrimary from './titles/ContentTitlePrimary'
 import ContentTitleSecondary from './titles/ContentTitleSecondary'
 import ContentTitleTertiary from './titles/ContentTitleTertiary'
@@ -91,7 +91,7 @@ const PageText = styled.div`
     })};
   }
 
-  ${Blockquote}, ${OrderedList}, ${UnorderedList} {
+  ${Blockquote} {
     ${api({
       marginH: scope`1ru`,
     })};

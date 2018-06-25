@@ -69,54 +69,47 @@ exports.onCreateNode = ({ node, boundActionCreators }) => {
 }
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators
-  const decoratedCreatePage = createPageWithConfig(createPage)
-
-  const paginatedArticlePages = createArticlesPages(
-    graphql,
-    decoratedCreatePage,
-    resources.articles.groupSize,
-    resources.articles.directory,
-    resources.articles.path
-  )
-
-  const articlePages = createResourcePages(
-    `Article`,
-    ARTICLE_TEMPLATE_PATH,
-    graphql,
-    decoratedCreatePage,
-    resources.articles.directory,
-    resources.articles.path
-  )
-
-  const tagPages = createTagPages(
-    graphql,
-    decoratedCreatePage,
-    resources.articles.directory
-  )
-
-  const categoryPages = createCategoryPages(
-    graphql,
-    decoratedCreatePage,
-    resources.articles.directory
-  )
-
-  const projectsPage = createProjectsPage(
-    graphql,
-    decoratedCreatePage,
-    resources.projects.directory,
-    resources.projects.path
-  )
-
-  const projectPages = createResourcePages(
-    `Project`,
-    PROJECT_TEMPLATE_PATH,
-    graphql,
-    decoratedCreatePage,
-    resources.projects.directory,
-    resources.projects.path
-  )
-
+  // const { createPage } = boundActionCreators
+  // const decoratedCreatePage = createPageWithConfig(createPage)
+  // const paginatedArticlePages = createArticlesPages(
+  //   graphql,
+  //   decoratedCreatePage,
+  //   resources.articles.groupSize,
+  //   resources.articles.directory,
+  //   resources.articles.path
+  // )
+  // const articlePages = createResourcePages(
+  //   `Article`,
+  //   ARTICLE_TEMPLATE_PATH,
+  //   graphql,
+  //   decoratedCreatePage,
+  //   resources.articles.directory,
+  //   resources.articles.path
+  // )
+  // const tagPages = createTagPages(
+  //   graphql,
+  //   decoratedCreatePage,
+  //   resources.articles.directory
+  // )
+  // const categoryPages = createCategoryPages(
+  //   graphql,
+  //   decoratedCreatePage,
+  //   resources.articles.directory
+  // )
+  // const projectsPage = createProjectsPage(
+  //   graphql,
+  //   decoratedCreatePage,
+  //   resources.projects.directory,
+  //   resources.projects.path
+  // )
+  // const projectPages = createResourcePages(
+  //   `Project`,
+  //   PROJECT_TEMPLATE_PATH,
+  //   graphql,
+  //   decoratedCreatePage,
+  //   resources.projects.directory,
+  //   resources.projects.path
+  // )
   // return Promise.all([
   //   paginatedArticlePages,
   //   articlePages,

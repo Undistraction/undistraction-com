@@ -13,10 +13,10 @@ module.exports = {
     // Used for the main site title and in RSS Feed
     title: `Undistraction`,
     // Used in RSS Feed
-    description: `The personal site of frontend developer Pedr Browne`,
+    description: `Site of Front End Developer and Designer Pedr Browne, based in Newcastle Upon Tyne, UK`,
     url: `https://undistraction.com`,
     // Starting year of copyright range
-    startYear: `2018`,
+    startYear: `2010`,
     // Show the credit in the footer (much appreciated)
     showCredit: true,
     // Formatting for dates displayed across the site
