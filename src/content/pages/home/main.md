@@ -15,7 +15,8 @@ versed in JavaScript, CSS and a good chunk of Rails. I've also developed some
 non-trivial iOS apps (though not for a while) and I'm currently dabbling with a
 little Haskell. Over the years I've worked for a huge variety of customers from
 high-street fashion brands, high-end design agencies and startups to social
-enterprise, NGOs and theatre companies on websites and both web and mobile apps.
+enterprise, NGOs and theatre companies, on websites and both web and mobile
+apps.
 
 I'm a big fan of CSS-in-JS and functional programming and I am one of the core
 contributors to [Ramda Adjunct](https://github.com/char0n/ramda-adjunct), the
@@ -31,7 +32,7 @@ number of my own open-source projects.
   values used throughout their styles and across breakpoints, improving
   consistency and flexibility.
 * [gatsby-starter-skeleton](https://github.com/Undistraction/gatsby-starter-skeleton)
-  is a full-featured starter for use with Gatsby
+  is a full-featured starter for use with Gatsby.
 * [gatsby-plugin-node-fields](https://github.com/Undistraction/gatsby-plugin-node-fields)
   is a plugin for Gatsby offering a simple API for defining defaults,
   transforming and validating node values.
@@ -42,9 +43,9 @@ number of my own open-source projects.
 * [cssapi-mq](https://github.com/Undistraction/cssapi-mq) is a fully-featured
   and flexible API for rendering Media Queries in CSS-in-JS applications.
 * [jasmine-multline-matchers](https://github.com/Undistraction/jasmine-multiline-matchers)
-  are a set of Jest / Jasmine matchers for matching against multiline strings.
+  are a set of Jest / Jasmine matchers for matching against multi-line strings.
 * [grid-model](https://github.com/Undistraction/grid-model) is a small library
-  for modeling a grid and accessing its metrics.
+  for modelling a grid and accessing its metrics.
 
 If you'd like to see the code I write you can take a look at my
 [Github Account](https://github.com/Undistraction) and to see what I've been
