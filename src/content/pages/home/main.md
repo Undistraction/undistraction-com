@@ -26,7 +26,7 @@ including [Gatsby](https://www.gatsbyjs.org/).
 I have recently taken some time out to improve my skills through working on a
 number of my own open-source projects.
 
-* [CSSAPI](https://github.com/Undistraction/cssapi) provides sites and apps
+* [cssapi](https://github.com/Undistraction/cssapi) provides sites and apps
   using CSS-in-JS with a simple mechanism for defining, managing and accessing
   values used throughout their styles and across breakpoints, improving
   consistency and flexibility.
@@ -37,7 +37,7 @@ number of my own open-source projects.
   is a comprehensive functional validation framework for simple value and
   recursive-object validation and transformation using Folktale's Validation
   Monad and supporting object schemas.
-* [CSSAPI-mq](https://github.com/Undistraction/cssapi-mq) is a fully-featured
+* [cssapi-mq](https://github.com/Undistraction/cssapi-mq) is a fully-featured
   and flexible API for rendering Media Queries in CSS-in-JS applications.
 * [jasmine-multline-matchers](https://github.com/Undistraction/jasmine-multiline-matchers)
   are a set of Jest / Jasmine matchers for matching against multiline strings.
