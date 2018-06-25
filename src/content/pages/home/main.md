@@ -30,6 +30,8 @@ number of my own open-source projects.
   using CSS-in-JS with a simple mechanism for defining, managing and accessing
   values used throughout their styles and across breakpoints, improving
   consistency and flexibility.
+* [gatsby-starter-skeleton](https://github.com/Undistraction/gatsby-starter-skeleton)
+  is a full-featured starter for use with Gatsby
 * [gatsby-plugin-node-fields](https://github.com/Undistraction/gatsby-plugin-node-fields)
   is a plugin for Gatsby offering a simple API for defining defaults,
   transforming and validating node values.
