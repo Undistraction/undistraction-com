@@ -24,7 +24,7 @@ const Layout = styled(VLayout.withComponent(`footer`))`
 `
 
 const SiteFooter = ({ owner, startYear }) => (
-  <Layout>
+  <Layout spacing="large">
     <Copyright owner={owner} dateRange={dateRange(startYear)} />
     <Credit />
   </Layout>
