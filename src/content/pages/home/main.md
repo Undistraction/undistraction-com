@@ -10,19 +10,18 @@ I'm Pedr, an experienced Front End Developer and Designer based in Newcastle
 Upon Tyne in the North of England. I love concise, readable and well tested code
 and minimal design where content is king.
 
-I've been working as a designer and developer for over ten years and I'm well
-versed in JavaScript, CSS and a good chunk of Rails. I've also developed some
-non-trivial iOS apps (though not for a while) and I'm currently dabbling with a
-little Haskell. Over the years I've worked for a huge variety of customers from
-high-street fashion brands, high-end design agencies and startups to social
-enterprise, NGOs and theatre companies, on websites and both web and mobile
-apps.
+I've been working as a freelance designer and developer for over ten years and
+I'm well versed in JavaScript, CSS (including Sass and Styled Components) and a
+good chunk of Rails. I've also developed some non-trivial iOS apps (though not
+for a while). Over the years I've worked for a huge variety of clients from
+high-street fashion brands, high-end design agencies and startups to NGOs and
+theatre companies, on websites and both web and mobile apps.
 
 I'm a big fan of CSS-in-JS and functional programming and I am one of the core
 contributors to [Ramda Adjunct](https://github.com/char0n/ramda-adjunct), the
-most popular extension library for Ramda, the gold standard in JavaScript FP
-libraries, and I've contributed to a number of other open-source projects
-including [Gatsby](https://www.gatsbyjs.org/).
+most popular extension library for Ramda, the gold standard in JavaScript FP,
+and I've contributed to a number of other open-source projects including
+[Gatsby](https://www.gatsbyjs.org/).
 
 I have recently taken some time out to improve my skills through working on a
 number of my own open-source projects including:
@@ -48,8 +47,8 @@ number of my own open-source projects including:
   for modelling a grid and accessing its metrics.
 
 If you'd like to see the code I write you can take a look at my
-[Github Account](https://github.com/Undistraction) and to see what I've been
-stuggling with recently have a look at my
+[Github](https://github.com/Undistraction) and to see what I've been stuggling
+with recently have a look at my
 [Stack Overflow Profile](https://stackoverflow.com/users/138601/undistraction)
 (I'm in the top 2% of contributors and my questions and answers have reached
 around 1.6 million people).
@@ -59,4 +58,5 @@ Last year I co-edited the official Webpack book
 Vepsäläinen, one of the core Webpack team.
 
 Alongside writing code I sometimes do print work, photography and the occasional
-music video which you can see over at [unwalked.com](http://unwalked.com).
+music video which you can see over at my other site
+[unwalked.com](http://unwalked.com).

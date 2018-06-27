@@ -3,12 +3,7 @@
   "description": "Undistraction Site",
   "version": "0.0.1",
   "author": "Pedr Browne <info@undistraction.com>",
-  "keywords": [
-    "undistraction",
-    "frontend developer",
-    "javascript",
-    "personal iste"
-  ],
+  "keywords": [],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
