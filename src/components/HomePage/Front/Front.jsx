@@ -1,4 +1,5 @@
 import { api, scope } from 'cssapi'
+import { withPrefix } from 'gatsby-link'
 import React from 'react'
 import styled from 'styled-components'
 import VLayout from '../../shared/layouts/VLayout'
@@ -10,9 +11,9 @@ import flexVertical from '../../styles/mixins/flexVertical'
 import spaceChildrenH from '../../styles/mixins/spaceChildrenH'
 import spaceChildrenV from '../../styles/mixins/spaceChildrenV'
 
-const Body = styled.div``
+const Left = styled.div``
 
-const Footer = styled.footer`
+const Right = styled.footer`
   text-align: center;
 `
 
@@ -28,7 +29,6 @@ const Layout = styled.section`
   justify-content: center;
   ${api({
     offset: 0,
-    background: `c:backgroundStart`,
     padding: `3ru`,
   })};
 `
@@ -46,28 +46,40 @@ const Title = styled.div`
       },
     })};
   }
+`
 
-  > *:last-child {
-    ${api({})};
-  }
+const Footer = styled.footer`
+  ${api({
+    marginTop: scope`1ru`,
+  })};
 `
 
 const Front = () => (
   <Layout>
     <Title>
-      <Body>
+      <Left>
         <Logo />
-      </Body>
-      <Footer>
+      </Left>
+      <Right>
         <TitlePrimary>Undistraction</TitlePrimary>
-      </Footer>
+      </Right>
     </Title>
     <Contact>
       <VLayout spacing="none">
         <TextLink to="mailTo:info@undistraction.com">
           info@undistraction.com
         </TextLink>
-        <TextLink to="tel:+4407880600363">+44 [0]7880 600 363</TextLink>
+        <TextLink to="tel:+4407880600363">+44 (0)7880 600 363</TextLink>
+        <Footer>
+          <TextLink
+            href={withPrefix(
+              `/downloads/Pedr-Browne-Front-End-Designer-And-Developer-Résumé.pdf`
+            )}
+            target="_blank"
+          >
+            [ Résumé ]
+          </TextLink>
+        </Footer>
       </VLayout>
     </Contact>
   </Layout>

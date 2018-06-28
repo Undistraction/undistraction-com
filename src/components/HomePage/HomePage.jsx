@@ -1,4 +1,4 @@
-import { api, scope } from 'cssapi'
+import { api } from 'cssapi'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
@@ -16,13 +16,10 @@ const TextContent = styled.div`
   margin: 0 auto;
   ${api({
     maxWidth: 900,
-    paddingV: { default: `0.5ru`, largeUp: `1ru` },
-  })};
-`
-
-const Rest = styled.div`
-  ${api({
-    margin: scope`1ru`,
+    paddingH: {
+      default: `1ru`,
+      'mediumUp+100': 0,
+    },
   })};
 `
 
@@ -35,11 +32,9 @@ const HomePage = ({ data }) => (
     <Layout>
       <Metadata {...homePageMetadata(data)} />
       <Front />
-      <Rest>
-        <TextContent>
-          <MarkdownContent htmlAst={markdownItemHTMLAst(data)} />
-        </TextContent>
-      </Rest>
+      <TextContent>
+        <MarkdownContent htmlAst={markdownItemHTMLAst(data)} />
+      </TextContent>
     </Layout>
   </Page>
 )

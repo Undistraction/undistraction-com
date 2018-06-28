@@ -1,5 +1,4 @@
 import { api, scope } from 'cssapi'
-import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
 import VLayout from '../../shared/layouts/VLayout'
@@ -20,12 +19,8 @@ const Layout = styled(VLayout)`
   }
 `
 
-const SiteHeader = ({ title, pages }) => <Layout spacing="small" />
+const SiteHeader = () => <Layout spacing="small" />
 
-SiteHeader.propTypes = {
-  title: PropTypes.string.isRequired,
-
-  pages: PropTypes.object.isRequired,
-}
+SiteHeader.propTypes = {}
 
 export default SiteHeader
