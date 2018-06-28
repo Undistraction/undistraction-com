@@ -73,7 +73,7 @@ const Front = () => (
         <Footer>
           <TextLink
             href={withPrefix(
-              `/downloads/Pedr-Browne-Front-End-Designer-And-Developer-Résumé.pdf`
+              `/downloads/Pedr-Browne-Front-End-Designer-And-Developer-Resume.pdf`
             )}
             target="_blank"
           >
