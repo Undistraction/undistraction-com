@@ -30,7 +30,7 @@ const html = ({
   }
   return (
     // eslint-disable-next-line jsx-a11y/html-has-lang
-    <html {...htmlAttributes}>
+    <html lang="en" {...htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
