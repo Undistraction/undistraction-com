@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "gatsby develop",
     "open": "open http://localhost:8000",
-    "build": "gatsby build",
+    "buildSite": "gatsby build",
     "serve": "gatsby serve",
     "preview": "gatsby build && gatsby serve",
     "test": "jest src/config src/styles --watch ",
@@ -17,7 +17,8 @@
     "lint:js": "eslint src",
     "lint:css": "stylelint './src/**/*.js'",
     "lint": "npm run lint:js && npm run lint:css",
-    "demo": "yarn demo:import && yarn demo:copy && yarn demo:build && yarn demo:githubPages && yarn demo:open",
+    "demo":
+      "yarn demo:import && yarn demo:copy && yarn demo:build && yarn demo:githubPages && yarn demo:open",
     "demo:import": "bash scripts/demo-import.sh",
     "demo:copy": "bash scripts/demo-copy-content.sh",
     "demo:build": "cd ./demo/project && gatsby build --prefix-paths",
@@ -25,11 +26,13 @@
     "demo:open": "open https://undistraction.github.io/gatsby-skeleton-starter",
     "demo:update": "yarn demo:import && yarn demo:dev",
     "demo:deleteCache": "bash scripts/demo-delete-cache.sh",
-    "demo:dev": "yarn demo:deleteCache && yarn demo:copy && cd demo/project && yarn dev",
+    "demo:dev":
+      "yarn demo:deleteCache && yarn demo:copy && cd demo/project && yarn dev",
     "demo:serve": "cd ./demo/project && gatsby serve",
     "surge:deploy": "surge public/ undistraction.com",
     "now:copyConfig": "cp -f now.json public/now.json",
-    "now:deploy": "yarn build && yarn now:copyConfig && cd public/ && now -e REDIRECT_URL=https://undistraction.com && now alias && now rm undistraction-com --safe --yes"
+    "now:deploy":
+      "yarn build && yarn now:copyConfig && cd public/ && now -e REDIRECT_URL=https://undistraction.com && now alias && now rm undistraction-com --safe --yes"
   },
   "dependencies": {
     "cssapi": "^0.9.7",
@@ -95,9 +98,5 @@
     "stylelint-processor-styled-components": "^1.2.0",
     "surge": "^0.19.0"
   },
-  "browserslist": [
-    "> 1%",
-    "IE >= 9",
-    "last 2 versions"
-  ]
+  "browserslist": ["> 1%", "IE >= 9", "last 2 versions"]
 }
