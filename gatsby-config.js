@@ -19,8 +19,6 @@ const plugins = [
   `gatsby-plugin-sharp`,
   // Add support for image nodes using Sharp
   `gatsby-transformer-sharp`,
-  // Support local links in markdown using pushstate
-  `gatsby-plugin-catch-links`,
   // Audit page for accessibility issues
   // Toggle to check for accessiblity issues
   favicon(),
