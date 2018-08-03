@@ -30,12 +30,6 @@ const plugins = [
   remark(config),
 ]
 
-// Add support for Google analytics if a tracking code was defined in
-// site-config.js
-if (seo.googleTrackingID) {
-  plugins.push(googleAnalytics(seo))
-}
-
 module.exports = {
   // pathPrefix: '/example',
   siteMetadata: config,
