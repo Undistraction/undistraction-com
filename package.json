@@ -17,8 +17,7 @@
     "lint:js": "eslint src",
     "lint:css": "stylelint './src/**/*.js'",
     "lint": "npm run lint:js && npm run lint:css",
-    "demo":
-      "yarn demo:import && yarn demo:copy && yarn demo:build && yarn demo:githubPages && yarn demo:open",
+    "demo": "yarn demo:import && yarn demo:copy && yarn demo:build && yarn demo:githubPages && yarn demo:open",
     "demo:import": "bash scripts/demo-import.sh",
     "demo:copy": "bash scripts/demo-copy-content.sh",
     "demo:build": "cd ./demo/project && gatsby build --prefix-paths",
@@ -26,13 +25,11 @@
     "demo:open": "open https://undistraction.github.io/gatsby-skeleton-starter",
     "demo:update": "yarn demo:import && yarn demo:dev",
     "demo:deleteCache": "bash scripts/demo-delete-cache.sh",
-    "demo:dev":
-      "yarn demo:deleteCache && yarn demo:copy && cd demo/project && yarn dev",
+    "demo:dev": "yarn demo:deleteCache && yarn demo:copy && cd demo/project && yarn dev",
     "demo:serve": "cd ./demo/project && gatsby serve",
     "surge:deploy": "surge public/ undistraction.com",
     "now:copyConfig": "cp -f now.json public/now.json",
-    "now:deploy":
-      "yarn build && yarn now:copyConfig && cd public/ && now -e REDIRECT_URL=https://undistraction.com && now alias && now rm undistraction-com --safe --yes"
+    "now:deploy": "yarn build && yarn now:copyConfig && cd public/ && now -e REDIRECT_URL=https://undistraction.com && now alias && now rm undistraction-com --safe --yes"
   },
   "dependencies": {
     "cssapi": "^0.9.7",
@@ -63,7 +60,7 @@
     "gatsby-paginate": "^1.0.6",
     "gatsby-plugin-accessibilityjs": "^1.0.3",
     "gatsby-plugin-catch-links": "^1.0.9",
-    "gatsby-plugin-favicon": "^3.1.2",
+    "gatsby-plugin-favicon": "2.1.1",
     "gatsby-plugin-feed": "^1.3.15",
     "gatsby-plugin-google-analytics": "^1.0.8",
     "gatsby-plugin-react-helmet": "^2.0.3",
@@ -101,5 +98,9 @@
     "stylelint-processor-styled-components": "^1.2.0",
     "surge": "^0.19.0"
   },
-  "browserslist": ["> 1%", "IE >= 9", "last 2 versions"]
+  "browserslist": [
+    "> 1%",
+    "IE >= 9",
+    "last 2 versions"
+  ]
 }
