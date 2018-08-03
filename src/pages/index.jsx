@@ -8,30 +8,11 @@ export default HomePage
 // Moving it anywhere else results in an error.
 export const query = graphql`
   query HomePageQuery {
-    markdownRemark(frontmatter: { slug: { eq: "home" } }) {
-      htmlAst
-      frontmatter {
-        image {
-          childImageSharp {
-            sizes {
-              ...GatsbyImageSharpSizes
-            }
-          }
-        }
-      }
-    }
     site {
       siteMetadata {
-        metadata {
-          home {
-            title
-            description
-            keywords
-          }
-        }
         structure {
           pages {
-            home {
+            notFound {
               title
             }
           }
