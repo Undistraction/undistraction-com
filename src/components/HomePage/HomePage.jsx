@@ -29,13 +29,7 @@ const Layout = styled.div`
 
 const HomePage = ({ data }) => (
   <Page title={homePageTitle(data)} imageSizes={markdownItemImageSizes(data)}>
-    <Layout>
-      <Metadata {...homePageMetadata(data)} />
-      <Front />
-      <TextContent>
-        <MarkdownContent htmlAst={markdownItemHTMLAst(data)} />
-      </TextContent>
-    </Layout>
+    <h1>Hello</h1>
   </Page>
 )
 
