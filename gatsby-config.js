@@ -16,12 +16,6 @@ const { seo } = config
 
 const plugins = [
   // SSR support for styled components
-  `gatsby-plugin-styled-components`,
-  // React Helmet support for managing page metadata via a component
-  `gatsby-plugin-react-helmet`,
-  // Automatically include JS for Twitter embeds
-  `gatsby-plugin-twitter`,
-  // Add Sharp image processing support
   `gatsby-plugin-sharp`,
   // Add support for image nodes using Sharp
   `gatsby-transformer-sharp`,
@@ -31,17 +25,7 @@ const plugins = [
   `gatsby-plugin-remove-trailing-slashes`,
   // Audit page for accessibility issues
   // Toggle to check for accessiblity issues
-  `gatsby-plugin-accessibilityjs`,
-  // Generate ./sitemap.xml for pages
-  sitemap(),
-  // Add robots.txt page
-  robots(config.data.url),
-  // Generate rss.xml for articles
-  feed(),
-  // Generate favicon from ./src/images/favicon/favicon.png
   favicon(),
-  sourceFileSystem(config.structure.resources.articles.path),
-  sourceFileSystem(config.structure.resources.projects.path),
   sourceFileSystem(`/pages`),
   remark(config),
 ]
