@@ -21,12 +21,9 @@ const plugins = [
   `gatsby-transformer-sharp`,
   // Support local links in markdown using pushstate
   `gatsby-plugin-catch-links`,
-  // Remove trailing slashes from urls
-  `gatsby-plugin-remove-trailing-slashes`,
   // Audit page for accessibility issues
   // Toggle to check for accessiblity issues
   favicon(),
-  sourceFileSystem(`/pages`),
   remark(config),
 ]
 
