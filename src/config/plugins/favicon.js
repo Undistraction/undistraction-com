@@ -3,13 +3,13 @@ module.exports = () => ({
   options: {
     logo: `./src/images/favicon/favicon.png`,
     icons: {
-      android: true,
-      appleIcon: true,
-      appleStartup: true,
+      android: false,
+      appleIcon: false,
+      appleStartup: false,
       coast: false,
       favicons: true,
-      firefox: true,
-      twitter: true,
+      firefox: false,
+      twitter: false,
       yandex: false,
       windows: false,
     },
