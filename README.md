@@ -1,14 +1,13 @@
 # Undistraction.com
 
-The site is deployed to [zeit](https://zeit.co/docs/features/dns). Every zeit
-deployment is immutable, so undistraction.com is aliased automatically after
-every deployment.
+This is a gatsby v1 static site.
 
-Deploy using:
+## Dependencies
 
-```
-yarn now:deploy
-```
+Install dependencies with `yarn`.
 
-Nameservers for undistraction.com are pointed there and www is forwarded to the
-naked domain. Mail is handled by Google Apps via MX records.
+## Deployment
+
+The site is deployed to Netlify, and is automatically deployed with every push to the master branch.
+
+Nameservers for undistraction.com (Dreamhost are registrar) are pointed at Netlify which handles the DNS including Mail which is handled by Google Apps via MX records. Login to the Netlify web console to manage DNS and domains.
