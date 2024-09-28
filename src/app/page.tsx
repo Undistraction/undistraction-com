@@ -5,6 +5,26 @@ import PullQuote from '../components/prose/PullQuote'
 import CopyLink from '../components/prose/CopyLink/CopyLink'
 
 // -----------------------------------------------------------------------------
+// Const
+// -----------------------------------------------------------------------------
+
+const CONTENT = {
+  pullquote: {
+    quote: `In over 15 years of experience, I can count on one hand the people I
+        would be 100% confident in recommending, but Pedr’s always first on my
+        list. His creative eye, attention to detail in design, and his ability
+        to craft readable and reliable code is second-to-none. Always passionate
+        about his work and a good communicator, he would be a valuable asset to
+        any company.`,
+    citation: 'Simon Bailey, Distinguished Engineer, TriNetX Inc',
+  },
+  resumeLink: {
+    href: `/pdf/Pedr-Browne-résumé.v2.pdf`,
+    label: `Pedr Browne Rėsumė`,
+  },
+}
+
+// -----------------------------------------------------------------------------
 // Exports
 // -----------------------------------------------------------------------------
 
@@ -14,7 +34,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-[940px] grid-cols-[3fr,2fr] gap-x-[35px] space-y-12 md:grid md:space-y-0">
+    <div className="mx-auto max-w-[940px] grid-cols-[3fr,2fr] gap-x-[35px] space-y-8 md:grid md:space-y-0">
       <div className="space-y-8">
         <div className="prose prose-invert md:text-xl">
           <p className="font-semibold">
@@ -34,10 +54,10 @@ export default function Home() {
             I’d be doing it for fun.
           </p>
         </div>
-        <ResumeLink />
+        <ResumeLink {...CONTENT.resumeLink} />
       </div>{' '}
-      <div className="space-y-8">
-        <PullQuote />
+      <div className="space-y-8 md:pt-7">
+        <PullQuote {...CONTENT.pullquote} />
         <p>
           See my other recommendations on{' '}
           <CopyLink
