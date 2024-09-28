@@ -8,6 +8,7 @@ const SiteBrandingLink = () => (
   <a
     className="md:text-xl"
     href="/"
+    aria-label="Undistraction Home"
   >
     Undistraction
   </a>

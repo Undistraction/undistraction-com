@@ -1,3 +1,5 @@
+import cx from 'classnames'
+
 // -----------------------------------------------------------------------------
 // Types
 // -----------------------------------------------------------------------------
@@ -10,6 +12,10 @@ interface SiteNavLinkProps {
 }
 
 // -----------------------------------------------------------------------------
+// Utils
+// -----------------------------------------------------------------------------
+
+// -----------------------------------------------------------------------------
 // Exports
 // -----------------------------------------------------------------------------
 
@@ -19,12 +25,15 @@ export default function name({
   target = undefined,
   isActive = false,
 }: SiteNavLinkProps) {
-  console.log(href, isActive)
   return (
     <a
-      className={`decoration-gray-300 hover:underline ${isActive && `underline`}`}
+      className={cx({
+        'decoration-gray-300 hover:underline': true,
+        underline: isActive,
+      })}
       href={href}
       target={target}
+      aria-current={isActive ? 'page' : undefined}
     >
       {label}
     </a>
