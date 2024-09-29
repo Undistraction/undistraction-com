@@ -3,18 +3,18 @@
 // -----------------------------------------------------------------------------
 
 interface ResumeLinkProps {
-  href: string,
-  label: string,
+  href: string
+  label: string
 }
 
 // -----------------------------------------------------------------------------
 // Exports
 // -----------------------------------------------------------------------------
 
-export default function ResumeLink({href, label}:ResumeLinkProps) {
+export default function ResumeLink({ href, label }: ResumeLinkProps) {
   return (
     <a
-      className="relative block max-w-72 p-3 text-center font-bold after:absolute after:inset-0 after:rounded-lg after:border after:border-gray-100 after:content-[''] hover:after:border-2 hover:after:border-gray-400"
+      className="relative block max-w-72 p-3 text-center font-bold transition ease-in after:absolute after:inset-0 after:rounded-lg after:border after:border-gray-400 after:transition-all after:ease-in after:content-[''] hover:bg-gray-900"
       href={href}
       target="_blank"
     >

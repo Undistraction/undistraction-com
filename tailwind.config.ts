@@ -21,6 +21,13 @@ const config: Config = {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
+      // typography: () => ({
+      //   DEFAULT: {
+      //     css: {
+      //       maxWidth: '65ch',
+      //     },
+      //   },
+      // }),
     },
   },
   plugins: [typographyPlugin, aspectRatioPlugin],
