@@ -65,17 +65,19 @@ export default function Home() {
         </div>
         <ResumeLink {...CONTENT.resumeLink} />
       </div>{' '}
-      <div className="space-y-8">
+      <div className="flex flex-col space-y-8 md:flex-col-reverse md:space-y-reverse">
+        <div className="flex flex-col space-y-4">
+          <PullQuote {...CONTENT.pullquote} />
+          <p>
+            See my other recommendations on{' '}
+            <CopyLink
+              label="LinkedIn"
+              href="https://www.linkedin.com/in/pedr-browne/details/recommendations"
+            />
+            .
+          </p>
+        </div>
         <ContactDetails links={CONTENT.contactDetails} />
-        <PullQuote {...CONTENT.pullquote} />
-        <p>
-          See my other recommendations on{' '}
-          <CopyLink
-            label="LinkedIn"
-            href="https://www.linkedin.com/in/pedr-browne/details/recommendations"
-          />
-          .
-        </p>
       </div>{' '}
     </div>
   )
