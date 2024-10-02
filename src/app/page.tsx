@@ -3,6 +3,7 @@ import React from 'react'
 import ResumeLink from '../components/ResumeLink'
 import PullQuote from '../components/prose/PullQuote'
 import CopyLink from '../components/prose/CopyLink/CopyLink'
+import ContactDetails from '../components/ContactDetails'
 
 // -----------------------------------------------------------------------------
 // Const
@@ -10,11 +11,7 @@ import CopyLink from '../components/prose/CopyLink/CopyLink'
 
 const CONTENT = {
   intro: [
-    `I’m a software engineer with almost two decades of experience, focussing
-      on front-end app development within the React ecosystem, but drawing from
-      experience building server-based sites and mobile apps. I write lean,
-      well-tested code using the best bits of functional programming while
-      keeping the code easy to read and reason-about.`,
+    `I’m an experienced software developer, with the last decade focussed on front-end app development within the React ecosystem, but drawing from many previous projects building server-based sites and mobile apps. I write lean, well-tested code using the best bits of functional programming, while keeping the code easy to read and reason about.`,
     `I’m comfortable collaborating on prototypes with designers, defining
       and refining spec alongside engineers, or discussing features with
       stakeholders. Pragmatic in my approach, adaptable and inquisitive, I find
@@ -30,9 +27,23 @@ const CONTENT = {
     citation: 'Simon Bailey, Distinguished Engineer, TriNetX\u00A0Inc',
   },
   resumeLink: {
-    href: `/pdf/Pedr-Browne-résumé.v2.pdf`,
+    href: `/pdf/Pedr-Browne-Software-Engineer-résumé.pdf`,
     label: `Pedr Browne Résumé`,
   },
+  contactDetails: [
+    {
+      href: 'mailto:info@undistraction.com',
+      label: `info@undistraction.com`,
+    },
+    {
+      href: 'https://github.com/Undistraction?tab=repositories',
+      label: `Github`,
+    },
+    {
+      href: 'https://www.linkedin.com/in/pedrb',
+      label: `LinkedIn`,
+    },
+  ],
 }
 
 // -----------------------------------------------------------------------------
@@ -48,13 +59,14 @@ export default function Home() {
     <div className="mx-auto max-w-[990px] grid-cols-[3fr,1.7fr] gap-x-16 space-y-8 md:grid md:space-y-0">
       <div className="space-y-8">
         <div className="prose prose-invert sm:text-lg md:text-xl">
-          <p className="font-semibold">{CONTENT.intro[0]}</p>
+          <p className="font-title font-semibold">{CONTENT.intro[0]}</p>
           <p>{CONTENT.intro[1]}</p>
           <p>{CONTENT.intro[2]}</p>
         </div>
         <ResumeLink {...CONTENT.resumeLink} />
       </div>{' '}
-      <div className="space-y-8 md:pt-7">
+      <div className="space-y-8">
+        <ContactDetails links={CONTENT.contactDetails} />
         <PullQuote {...CONTENT.pullquote} />
         <p>
           See my other recommendations on{' '}

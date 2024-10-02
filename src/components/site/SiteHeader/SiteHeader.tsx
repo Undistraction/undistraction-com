@@ -1,18 +1,5 @@
-// -----------------------------------------------------------------------------
-// Sub-components
-// -----------------------------------------------------------------------------
-
 import SiteNav from '../SiteNav'
-
-const SiteBrandingLink = () => (
-  <a
-    className="md:text-xl"
-    href="/"
-    aria-label="Undistraction Home"
-  >
-    Undistraction
-  </a>
-)
+import SiteBrandingLink from './SiteBrandingLink'
 
 // -----------------------------------------------------------------------------
 // Exports

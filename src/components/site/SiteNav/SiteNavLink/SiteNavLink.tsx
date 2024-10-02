@@ -28,8 +28,11 @@ export default function name({
   return (
     <a
       className={cx({
-        'decoration-gray-300 hover:underline': true,
+        'font-title text-white transition-colors duration-500 ease-in-out md:text-2xl':
+          true,
         underline: isActive,
+        'cursor-default': isActive,
+        'hover:text-yellow-300': !isActive,
       })}
       href={href}
       target={target}

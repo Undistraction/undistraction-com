@@ -1,4 +1,5 @@
 import type { MDXComponents } from 'mdx/types'
+import CopyLink from './src/components/prose/CopyLink/CopyLink'
 
 // -----------------------------------------------------------------------------
 // Exports
@@ -8,5 +9,12 @@ import type { MDXComponents } from 'mdx/types'
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     ...components,
+    a: ({ children, href, ...rest }) => (
+      <CopyLink
+        label={children as string}
+        href={href as string}
+        {...rest}
+      />
+    ),
   }
 }
