@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <div className="mx-auto grid-cols-[1fr] gap-x-[50px] space-y-12 md:grid md:max-w-[990px] md:space-y-0 xl:max-w-[1200px]">
+    <div className="mx-auto md:grid md:max-w-[990px] xl:max-w-[1200px]">
       <Markdown>
         <AboutCopy />
       </Markdown>

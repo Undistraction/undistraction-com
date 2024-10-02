@@ -15,7 +15,7 @@ interface ContactDetailsProps {
 
 export default function ContactDetails({ links }: ContactDetailsProps) {
   return (
-    <nav className="flex flex-col space-y-1">
+    <nav className="flex flex-col gap-1">
       {map(
         ({ href, label }) => (
           <CopyLink

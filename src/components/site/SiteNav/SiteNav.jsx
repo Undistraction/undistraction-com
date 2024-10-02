@@ -28,7 +28,7 @@ export default function SiteNav() {
   const pathname = usePathname()
 
   return (
-    <nav className="flex flex-row space-x-3 md:text-xl">
+    <nav className="flex flex-row gap-3 md:text-xl">
       {LINKS.map((link) => {
         return (
           <SiteNavLink

@@ -14,7 +14,7 @@ export default function SiteBrandingLink() {
   return (
     <a
       className={cx({
-        'font-title text-white transition-colors duration-500 ease-in-out md:text-2xl': true,
+        'font-title text-xl text-white transition-colors duration-500 ease-in-out md:text-2xl': true,
         'cursor-default': isActive,
         'hover:text-yellow-300': !isActive,
       })}
