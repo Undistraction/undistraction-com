@@ -18,7 +18,7 @@ export default function PullQuote({ quote, citation }: PullQuoteProps) {
       aria-label="Pull quote"
     >
       <span className="relative italic">
-        <span className="absolute -left-[10px] text-gray-400 md:-left-[35px] md:text-6xl">
+        <span className="absolute -left-[10px] text-balance text-gray-400 md:-left-[35px] md:text-6xl">
           “
         </span>
         {quote}
