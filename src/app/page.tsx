@@ -37,7 +37,7 @@ const CONTENT = {
   },
   myWork: {
     title: 'My work',
-    body: 'You can take a look at the code I write on [Github](https://github.com/Undistraction/undistraction-com). A good place to start is [Warp Grid](https://github.com/Undistraction/warp-grid), a library enabling the creation of complex 2D grids. You can see it in action at [swatchmaker.com](https://swatchmaker.com), a site exploring the colours hidden within large datasets, that I designed and built.',
+    body: 'You can take a look at the code I write on [Github](https://github.com/Undistraction/undistraction-com). A good place to start is [Warp Grid](https://github.com/Undistraction/warp-grid), a library enabling the creation of complex 2D grids. You can see it in action at [swatchmaker.com](https://swatchmaker.com), a site exploring the colours hidden within large datasets that I designed and built.',
   },
   contactDetails: [
     {
