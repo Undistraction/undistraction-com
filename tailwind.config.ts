@@ -15,8 +15,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: [`din-2014`, `sans-serif`],
         title: [`din-2014-rounded-variable`, `sans-serif`],
+        sans: [`din-2014-rounded-variable`, `sans-serif`],
       },
       colors: {
         background: 'var(--background)',

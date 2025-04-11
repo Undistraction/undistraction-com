@@ -12,10 +12,6 @@ interface SiteNavLinkProps {
 }
 
 // -----------------------------------------------------------------------------
-// Utils
-// -----------------------------------------------------------------------------
-
-// -----------------------------------------------------------------------------
 // Exports
 // -----------------------------------------------------------------------------
 
@@ -28,11 +24,11 @@ export default function name({
   return (
     <a
       className={cx({
-        'font-title text-white transition-colors duration-500 ease-in-out md:text-2xl':
+        'font-title text-white transition-colors duration-500 ease-in-out md:text-xl':
           true,
         underline: isActive,
         'cursor-default': isActive,
-        'hover:text-yellow-300': !isActive,
+        'hover:text-rose-500': !isActive,
       })}
       href={href}
       target={target}

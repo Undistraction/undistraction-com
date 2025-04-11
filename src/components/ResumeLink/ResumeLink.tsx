@@ -2,6 +2,8 @@
 // Types
 // -----------------------------------------------------------------------------
 
+import FeatherIcon from 'feather-icons-react'
+
 interface ResumeLinkProps {
   href: string
   label: string
@@ -14,11 +16,17 @@ interface ResumeLinkProps {
 export default function ResumeLink({ href, label }: ResumeLinkProps) {
   return (
     <a
-      className="relative block max-w-72 p-3 text-center font-bold transition ease-in after:absolute after:inset-0 after:rounded-lg after:border after:border-gray-400 after:transition-all after:ease-in after:content-[''] hover:bg-gray-900 hover:text-yellow-300"
+      className="relative flex max-w-72 items-center justify-center gap-1 p-3 text-center font-bold transition ease-in after:absolute after:inset-0 after:rounded-lg after:border after:border-gray-700 after:transition-all after:ease-in after:content-[''] hover:bg-gray-900 hover:text-rose-500"
       href={href}
       target="_blank"
     >
-      {label}
+      <span className="relative top-[-1.5px] text-gray-400">
+        <FeatherIcon
+          icon="file"
+          size="16"
+        />
+      </span>
+      <span>{label}</span>
     </a>
   )
 }
