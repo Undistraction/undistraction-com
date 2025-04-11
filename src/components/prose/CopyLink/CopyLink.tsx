@@ -17,7 +17,7 @@ interface CopyLinkProps {
 export default function CopyLink({ href, label, icon }: CopyLinkProps) {
   return (
     <a
-      className="text-gray-50-500 inline-flex items-center gap-1 font-bold no-underline transition-colors duration-500 ease-in-out hover:text-rose-500 hover:decoration-gray-300"
+      className="text-gray-50-500 inline-flex items-center gap-1 underline decoration-gray-600 transition-colors duration-500 ease-in-out hover:text-rose-500 hover:decoration-rose-800"
       href={href}
     >
       {icon && (

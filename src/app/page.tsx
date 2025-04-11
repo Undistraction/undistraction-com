@@ -77,13 +77,18 @@ export default function Home() {
           <p>{CONTENT.intro.body[1]}</p>
           <p>{CONTENT.intro.body[2]}</p>
         </div>
-        <div className="prose prose-invert sm:text-lg md:text-xl">
+        <div className="md:hidden">
+          <ResumeLink {...CONTENT.resumeLink} />
+        </div>
+        <div className="a:decoration-gray-400 prose prose-invert sm:text-lg md:text-xl">
           <h2 className="text-xl">My work</h2>
           <Markdown>{CONTENT.myWork.body}</Markdown>
         </div>
       </div>
       <div className="flex flex-col-reverse gap-8 md:flex-col">
-        <ResumeLink {...CONTENT.resumeLink} />
+        <div className="hidden md:block">
+          <ResumeLink {...CONTENT.resumeLink} />
+        </div>
         <ContactDetails links={CONTENT.contactDetails} />
         <div className="flex flex-col gap-4">
           <PullQuote {...CONTENT.pullquote} />

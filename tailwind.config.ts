@@ -22,6 +22,15 @@ const config: Config = {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            a: {
+              'text-decoration-color': '#666',
+            },
+          },
+        },
+      },
     },
   },
   plugins: [typographyPlugin, aspectRatioPlugin],

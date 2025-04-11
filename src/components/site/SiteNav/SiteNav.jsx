@@ -8,7 +8,11 @@ import SiteNavLink from './SiteNavLink'
 // -----------------------------------------------------------------------------
 
 const LINKS = [
-  { href: '/pdf/Pedr-Browne-Software-Engineer-résumé.v2.pdf', label: 'Résumé' },
+  {
+    href: '/pdf/Pedr-Browne-Software-Engineer-résumé.v2.pdf',
+    label: 'Résumé',
+    target: '_blank',
+  },
   {
     href: 'https://www.linkedin.com/in/pedrb/details/recommendations/',
     label: 'Recommendations',
@@ -24,7 +28,7 @@ export default function SiteNav() {
   const pathname = usePathname()
 
   return (
-    <nav className="flex w-full flex-row justify-center gap-3 border-y border-y-gray-700 px-4 py-2 md:px-8 md:py-4">
+    <nav className="flex w-full flex-row justify-center gap-3 border-y border-y-gray-800 px-4 py-2 md:px-8 md:py-4">
       {LINKS.map((link) => {
         return (
           <SiteNavLink

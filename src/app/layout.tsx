@@ -12,16 +12,17 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className="bg-gray-950"
+    >
       <head>
         <link
           rel="stylesheet"
           href="https://use.typekit.net/ogo5qce.css"
         />
       </head>
-      <body
-        className={`bg-gradient-to-b from-gray-800 to-gray-900 antialiased`}
-      >
+      <body className="bg-gray-950 antialiased">
         <SiteLayout>{children}</SiteLayout>
       </body>
     </html>
