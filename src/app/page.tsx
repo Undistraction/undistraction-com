@@ -15,7 +15,7 @@ const CONTENT = {
   intro: {
     title: 'Intro',
     body: [
-      `I’m an experienced software engineer, with the last decade focused on front-end app development within the React ecosystem, but drawing from many previous projects building server-based sites and mobile apps. I write lean, well-tested code using the best bits of functional programming, while keeping the code easy to read and reason about.`,
+      `I’m an experienced software engineer, with the last decade focused on front-end app development within the React ecosystem, but drawing from many previous projects building MPAs and mobile apps. I write lean, well-tested code using the best bits of functional programming, while keeping the code easy to read and reason about.`,
       `I’m comfortable collaborating on prototypes with designers, defining
       and refining spec alongside engineers, or brainstorming solutions with
       stakeholders. Pragmatic in my approach, adaptable and inquisitive, I find
