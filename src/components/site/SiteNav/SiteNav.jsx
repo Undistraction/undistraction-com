@@ -9,7 +9,7 @@ import SiteNavLink from './SiteNavLink'
 
 const LINKS = [
   {
-    href: '/pdf/Pedr-Browne-Software-Engineer-Résumé.v3.pdf',
+    href: '/pdf/Pedr-Browne-Software-Engineer-Résumé.v4.pdf',
     label: 'Résumé',
     target: '_blank',
   },

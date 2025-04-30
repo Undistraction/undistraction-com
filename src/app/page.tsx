@@ -32,7 +32,7 @@ const CONTENT = {
     citation: 'Simon Bailey, Distinguished Engineer, TriNetX\u00A0Inc',
   },
   resumeLink: {
-    href: `/pdf/Pedr-Browne-Software-Engineer-Résumé.v3.pdf`,
+    href: `/pdf/Pedr-Browne-Software-Engineer-Résumé.v4.pdf`,
     label: `Résumé`,
   },
   myWork: {
