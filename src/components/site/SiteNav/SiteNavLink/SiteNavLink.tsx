@@ -9,6 +9,7 @@ interface SiteNavLinkProps {
   label: string
   target?: string
   isActive?: boolean
+  download?: string
 }
 
 // -----------------------------------------------------------------------------
@@ -20,6 +21,7 @@ export default function name({
   label,
   target = undefined,
   isActive = false,
+  download,
 }: SiteNavLinkProps) {
   return (
     <a
@@ -31,6 +33,7 @@ export default function name({
       })}
       href={href}
       target={target}
+      download={download}
       aria-current={isActive ? 'page' : undefined}
     >
       {label}

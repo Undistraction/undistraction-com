@@ -12,6 +12,7 @@ const LINKS = [
     href: '/pdf/Pedr-Browne-Software-Engineer-Résumé.v4.pdf',
     label: 'Résumé',
     target: '_blank',
+    download: `Pedr-Browne-Software-Engineer-Résumé.v4.pdf`,
   },
   {
     href: 'https://www.linkedin.com/in/pedrb/details/recommendations/',
