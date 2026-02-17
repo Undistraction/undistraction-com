@@ -28,7 +28,8 @@ export default function name({
       className={cx({
         'font-title text-white transition-colors duration-500 ease-in-out md:text-xl':
           true,
-        'cursor-default underline decoration-gray-500': isActive,
+        'cursor-default underline decoration-rose-500 underline-offset-[3px]':
+          isActive,
         'hover:text-rose-500': !isActive,
       })}
       href={href}
