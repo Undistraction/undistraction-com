@@ -1,6 +1,7 @@
 'use client'
 
 import cx from 'classnames'
+import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 // -----------------------------------------------------------------------------
@@ -12,7 +13,7 @@ export default function SiteBrandingLink() {
   const isActive = pathname === '/'
 
   return (
-    <a
+    <Link
       className={cx({
         'flex flex-col items-center font-title text-white transition-colors duration-500 ease-in-out md:text-2xl': true,
         'cursor-default': isActive,
@@ -23,6 +24,6 @@ export default function SiteBrandingLink() {
     >
       <div className="text-xl leading-5">Pedr Browne</div>
       <div className="text-lg text-gray-400">Software Engineer</div>
-    </a>
+    </Link>
   )
 }
