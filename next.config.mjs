@@ -3,6 +3,16 @@ import createMDX from '@next/mdx'
 const nextConfig = {
   // Include markdown and MDX files
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
+  async redirects() {
+    return [
+      {
+        source: '/pdf/Pedr-Browne-Software-Engineer-R%C3%A9sum%C3%A9.pdf',
+        destination:
+          '/pdf/Pedr-Browne-Software-Engineer-R%C3%A9sum%C3%A9.v8.pdf',
+        permanent: false,
+      },
+    ]
+  },
 }
 
 const withMDX = createMDX({

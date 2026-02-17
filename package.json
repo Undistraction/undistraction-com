@@ -20,8 +20,7 @@
     "ramda": "^0.30.1",
     "ramda-adjunct": "^5.1.0",
     "react": "^18",
-    "react-dom": "^18",
-    "react-markdown": "^10.1.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",

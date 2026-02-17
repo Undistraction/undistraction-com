@@ -5,7 +5,7 @@ import PullQuote from '../components/prose/PullQuote'
 import CopyLink from '../components/prose/CopyLink/CopyLink'
 import ContactDetails from '../components/ContactDetails'
 import { FeatherIconName } from 'feather-icons-react'
-import Markdown from 'react-markdown'
+import MyWorkCopy from '../../content/md/myWorkCopy.mdx'
 
 // -----------------------------------------------------------------------------
 // Const
@@ -32,12 +32,11 @@ const CONTENT = {
     citation: 'Simon Bailey, Distinguished Engineer, TriNetX\u00A0Inc',
   },
   resumeLink: {
-    href: `/pdf/Pedr-Browne-Software-Engineer-Résumé.v7.pdf`,
+    href: `/pdf/Pedr-Browne-Software-Engineer-Résumé.pdf`,
     label: `Résumé`,
   },
   myWork: {
     title: 'My work',
-    body: 'You can take a look at the code I write on [Github](https://github.com/Undistraction/undistraction-com). A good place to start is [Warp Grid](https://github.com/Undistraction/warp-grid), a library enabling the creation of complex 2D grids. You can see it in action at [swatchmaker.com](https://swatchmaker.com), a site exploring the colours hidden within large datasets that I designed and built.',
   },
   contactDetails: [
     {
@@ -82,7 +81,7 @@ export default function Home() {
         </div>
         <div className="a:decoration-gray-400 prose prose-invert sm:text-lg md:text-xl">
           <h2 className="text-xl">My work</h2>
-          <Markdown>{CONTENT.myWork.body}</Markdown>
+          <MyWorkCopy />
         </div>
       </div>
       <div className="flex flex-col-reverse gap-8 md:flex-col">

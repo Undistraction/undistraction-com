@@ -9,10 +9,10 @@ import SiteNavLink from './SiteNavLink'
 
 const LINKS = [
   {
-    href: '/pdf/Pedr-Browne-Software-Engineer-Résumé.v7.pdf',
+    href: '/pdf/Pedr-Browne-Software-Engineer-Résumé.pdf',
     label: 'Résumé',
     target: '_blank',
-    download: `Pedr-Browne-Software-Engineer-Résumé.v7.pdf`,
+    download: true,
   },
   {
     href: 'https://www.linkedin.com/in/pedrb/details/recommendations/',

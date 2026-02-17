@@ -27,6 +27,11 @@ const config: Config = {
           css: {
             a: {
               'text-decoration-color': '#666',
+              transition: 'color 0.3s ease-in-out, text-decoration-color 0.3s ease-in-out',
+              '&:hover': {
+                color: 'rgb(244 63 94)',
+                'text-decoration-color': 'rgb(159 18 57)',
+              },
             },
           },
         },
