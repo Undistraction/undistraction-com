@@ -1,5 +1,15 @@
 import createMDX from '@next/mdx'
 
+// -----------------------------------------------------------------------------
+// Const
+// -----------------------------------------------------------------------------
+
+const RESUME_VERSION = 8
+
+// -----------------------------------------------------------------------------
+// Utils
+// -----------------------------------------------------------------------------
+
 const nextConfig = {
   // Include markdown and MDX files
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
@@ -8,7 +18,7 @@ const nextConfig = {
       {
         source: '/pdf/Pedr-Browne-Software-Engineer-R%C3%A9sum%C3%A9.pdf',
         destination:
-          '/pdf/Pedr-Browne-Software-Engineer-R%C3%A9sum%C3%A9.v8.pdf',
+          `/pdf/Pedr-Browne-Software-Engineer-R%C3%A9sum%C3%A9.v${RESUME_VERSION}.pdf`,
         permanent: false,
       },
     ]
